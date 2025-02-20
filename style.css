@@ -1,0 +1,75 @@
+body{
+  background: linear-gradient(135deg, #f6f8f9 0%, #e5ebee 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card{
+	border: 2px solid white; 
+	margin: auto;
+	width:35vw; 
+	border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+	background-color: white;
+	transition: transform 0.3s ease;
+	}
+	
+.card:hover {
+  transform: scale(1.02);
+}	
+
+.pic{
+	width:25%; 
+	height:auto; 
+	margin-left:35%;
+	border:3px solid blue; 
+	border-radius: 200%;
+	margin-top:10px;
+	}
+    
+#fullname{
+	color: blue;
+	font-family: Geneva;
+	text-align:center;  
+	padding-top:10px;
+}
+
+#profession{
+	color: green;
+	font-family: verdana;
+	text-align:center;  
+	padding-top:10px;
+}	
+
+.text{
+	margin:15px;
+	text-align:center;
+	padding: 10px;
+	}
+
+.p{
+	padding:15px;
+	text-align: center;
+}
+
+.links{
+	display: flex;
+	padding: 12px;
+	justify-content: center;
+}
+
+.links a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	text-align: center;
+}
+
+#time {
+  color: green;
+  font-weight: 600;
+  text-align: center;
+}
+
